@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:nilam/controllers/login_controllers.dart';
 
@@ -23,7 +24,7 @@ class MyHomePage extends StatelessWidget {
           style: Get.textTheme.headline6,
         ),
         ActionChip(
-          avatar: Icon(Icons.logout),
+          avatar: const Icon(FontAwesomeIcons.signOutAlt),
           label: const Text("Logout"),
           onPressed: () {
             controller.logout();

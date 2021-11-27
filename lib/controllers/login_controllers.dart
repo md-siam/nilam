@@ -5,7 +5,7 @@ class LoginController extends GetxController {
   var _googleSignin = GoogleSignIn();
   var googleAccount = Rx<GoogleSignInAccount>(null);
 
-  login() async{
+  login() async {
     googleAccount.value = await _googleSignin.signIn();
   }
 

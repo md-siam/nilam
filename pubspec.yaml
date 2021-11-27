@@ -35,8 +35,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   # For signing in with Gmail account
   google_sign_in: ^5.2.1
-  # For Statemanagement
+  # For Statementing
   get: ^4.3.8
+  # For accessing FontAwesome icons
+  font_awesome_flutter: ^9.2.0
 
 dev_dependencies:
   flutter_test:
