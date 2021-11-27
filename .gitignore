@@ -45,6 +45,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Firebase API key
+# Firebase API key from android & ios folder
 /android/app/google-services.json
 /ios/GoogleService-Info.plist
