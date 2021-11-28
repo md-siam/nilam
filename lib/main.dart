@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nilam/auth/login_page.dart';
+import 'package:nilam/views/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +14,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Nilam',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: LoginPage(),
-      debugShowCheckedModeBanner: false,
+      // Pages routing
+      getPages: [
+        GetPage(
+            name: '/',
+            page: () => LoginPage(),
+            transition: Transition.cupertino),
+        GetPage(
+            name: '/homepage',
+            page: () => HomePage(),
+            transition: Transition.cupertino),
+      ],
     );
   }
 }
