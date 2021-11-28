@@ -4,6 +4,7 @@ import 'package:nilam/controllers/login_controllers.dart';
 import 'package:nilam/views/home_page.dart';
 
 class LoginPage extends StatelessWidget {
+  LoginPage({Key key}) : super(key: key);
   final controller = Get.put(LoginController());
 
   @override
