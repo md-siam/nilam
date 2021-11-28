@@ -19,18 +19,12 @@ class LoginPage extends StatelessWidget {
                 children: [
                   const Text(
                     "Welcome to \" নিলাম \"!",
-                    style: TextStyle(
-                      fontWeight: FontWeight.w900,
-                      fontSize: 29,
-                    ),
+                    style: TextStyle(fontSize: 29, fontWeight: FontWeight.w900),
                     textAlign: TextAlign.center,
                   ),
                   const Text(
-                    "The fastest growing C2C platform\nin\nBangladesh",
-                    style: TextStyle(
-                      fontWeight: FontWeight.w400,
-                      fontSize: 18,
-                    ),
+                    "The fastest growing C2C E-commerce\nplatform in Bangladesh",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
                     textAlign: TextAlign.center,
                   ),
                   const Flexible(
@@ -63,7 +57,7 @@ class LoginPage extends StatelessWidget {
       ),
       label: const Text(
         "Sign in with Google",
-        style: TextStyle(fontSize: 16),
+        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
       ),
       backgroundColor: Colors.white,
       foregroundColor: Colors.black,

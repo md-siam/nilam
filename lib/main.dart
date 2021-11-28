@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: LoginPage(),
-      // Pages routing
+      // Pages routing using GetX
       getPages: [
         GetPage(
             name: '/',
