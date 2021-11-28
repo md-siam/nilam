@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:nilam/controllers/login_controllers.dart';
-import 'package:nilam/views/home_page.dart';
+
+import '../controllers/login_controllers.dart';
+import '../views/views.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({Key key}) : super(key: key);

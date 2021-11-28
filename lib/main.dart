@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:nilam/auth/login_page.dart';
-import 'package:nilam/views/auction_a_product_page.dart';
-import 'package:nilam/views/dashboard_page.dart';
-import 'package:nilam/views/home_page.dart';
-import 'package:nilam/views/my_product_page.dart';
+
+import '../auth/login_page.dart';
+import '../views/views.dart';
 
 void main() {
   runApp(const MyApp());

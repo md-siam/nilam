@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:nilam/controllers/login_controllers.dart';
-import 'package:nilam/widgets/custom_drawer.dart';
+
+import '../controllers/login_controllers.dart';
+import '../widgets/custom_drawer.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key key}) : super(key: key);
