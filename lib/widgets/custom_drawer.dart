@@ -30,6 +30,7 @@ class CustomDrawer extends StatelessWidget {
                         .image,
                     radius: 60,
                   ),
+                  const SizedBox(height: 10),
                   Text(
                     controller.googleAccount.value.displayName ?? '',
                     style: const TextStyle(fontSize: 22, color: Colors.white),
@@ -64,6 +65,7 @@ class CustomDrawer extends StatelessWidget {
               Get.toNamed('/dashboard/');
             },
           ),
+          const Divider(),
           ListTile(
             leading: const Icon(FontAwesomeIcons.signOutAlt),
             title: const Text(
@@ -74,6 +76,18 @@ class CustomDrawer extends StatelessWidget {
             onTap: () {
               controller.logout();
             },
+          ),
+          const Divider(),
+          Expanded(child: Column(children: const [SizedBox()])),
+          const Divider(),
+          const Center(
+            child: Text(
+              "Version: 0.1.23",
+              style: TextStyle(
+                color: Colors.grey,
+                fontSize: 14.0,
+              ),
+            ),
           ),
         ],
       ),
