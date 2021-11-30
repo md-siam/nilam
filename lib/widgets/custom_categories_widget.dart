@@ -77,15 +77,14 @@ class CustomCategoriesWidget extends StatelessWidget {
                       height: 40.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage(
-                                "assets/images/category/furniture.png"),
+                            image: AssetImage("assets/images/category/car.png"),
                             fit: BoxFit.cover),
                         color: Colors.white10,
                         shape: BoxShape.rectangle,
                       ),
                     ),
                     const SizedBox(height: 5.0),
-                    const Text("Furniture"),
+                    const Text("Car"),
                   ],
                 ),
               ),
@@ -227,14 +226,15 @@ class CustomCategoriesWidget extends StatelessWidget {
                       height: 40.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("assets/images/category/car.png"),
+                            image: AssetImage(
+                                "assets/images/category/furniture.png"),
                             fit: BoxFit.cover),
                         color: Colors.white10,
                         shape: BoxShape.rectangle,
                       ),
                     ),
                     const SizedBox(height: 5.0),
-                    const Text("Car"),
+                    const Text("Furniture"),
                   ],
                 ),
               ),
