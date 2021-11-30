@@ -9,10 +9,7 @@ class BlankPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: primaryAppBarColor,
-        title: const Text("Under Construction"),
-      ),
+      appBar: AppBar(backgroundColor: primaryAppBarColor),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [
