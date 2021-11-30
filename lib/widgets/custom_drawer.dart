@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
+import '../const/const_colors.dart';
 import '../controllers/login_controllers.dart';
 
 class CustomDrawer extends StatelessWidget {
@@ -20,7 +21,7 @@ class CustomDrawer extends StatelessWidget {
           Container(
             width: double.infinity,
             padding: const EdgeInsets.all(20),
-            color: Colors.teal,
+            color: appDrawerBackgroundColor,
             child: Center(
               child: Column(
                 children: <Widget>[
