@@ -47,6 +47,10 @@ class MyApp extends StatelessWidget {
             name: '/dashboard',
             page: () => DashboardPage(),
             transition: Transition.cupertino),
+        GetPage(
+            name: '/blank',
+            page: () => BlankPage(),
+            transition: Transition.cupertino),
       ],
     );
   }

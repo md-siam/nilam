@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
@@ -6,6 +7,7 @@ import 'package:get/get.dart';
 import '../controllers/home_page_controller.dart';
 import '../controllers/login_controllers.dart';
 import '../models/home_page_models.dart';
+import '../widgets/custom_categories_widget.dart';
 import '../widgets/custom_drawer.dart';
 
 class HomePage extends StatelessWidget {
@@ -37,36 +39,59 @@ class HomePage extends StatelessWidget {
         drawer: CustomDrawer(controller: controller),
         body: ListView(
           children: [
-            Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SizedBox(
-                    height: 200,
-                    child: Swiper(
-                      itemCount: sliderItems.length,
-                      autoplay: true,
-                      autoplayDelay: 5000,
-                      curve: Curves.easeIn,
-                      layout: SwiperLayout.DEFAULT,
-                      itemBuilder: (BuildContext context, int index) {
-                        return Card(
-                          semanticContainer: true,
-                          clipBehavior: Clip.antiAliasWithSaveLayer,
-                          child: BannerImageModel(sliderItems[index],
-                              fit: BoxFit.fill),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10.0),
-                          ),
-                          elevation: 5,
-                          margin: const EdgeInsets.all(20),
-                        );
-                      },
-                    ),
+            Column(
+              children: [
+                SizedBox(
+                  height: 200,
+                  child: Swiper(
+                    itemCount: sliderItems.length,
+                    autoplay: true,
+                    autoplayDelay: 5000,
+                    curve: Curves.easeIn,
+                    layout: SwiperLayout.DEFAULT,
+                    itemBuilder: (BuildContext context, int index) {
+                      return Card(
+                        semanticContainer: true,
+                        clipBehavior: Clip.antiAliasWithSaveLayer,
+                        child: BannerImageModel(sliderItems[index],
+                            fit: BoxFit.fill),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
+                        elevation: 5,
+                        margin: const EdgeInsets.all(20),
+                      );
+                    },
                   ),
-                ],
-              ),
-            )
+                ),
+                const SizedBox(height: 10.0),
+                Row(
+                  children: const [
+                    Padding(
+                      padding: EdgeInsets.only(left: 20.0),
+                      child: Text(
+                        "Categories",
+                        style: TextStyle(fontWeight: FontWeight.w500),
+                      ),
+                    ),
+                  ],
+                ),
+                const CustomCategoriesWidget(),
+                const SizedBox(height: 100),
+                Row(
+                  children: const [
+                    Padding(
+                      padding: EdgeInsets.only(left: 20.0),
+                      child: Text(
+                        "Live Auctions",
+                        style: TextStyle(fontWeight: FontWeight.w500),
+                      ),
+                    ),
+                  ],
+                ),
+                Card(child: Text("Check"))
+              ],
+            ),
           ],
         ),
       ),

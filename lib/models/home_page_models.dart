@@ -18,3 +18,13 @@ class BannerImageModel extends StatelessWidget {
     );
   }
 }
+
+class CategoriesModel {
+  String imageUrl;
+  String title;
+
+  CategoriesModel({
+    this.imageUrl,
+    this.title,
+  });
+}
