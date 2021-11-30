@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
           iconTheme: const IconThemeData(color: Colors.black),
           elevation: 0.0,
           title: const Image(
-            image: AssetImage('assets/images/nilam_as_title.png'),
+            image: AssetImage('assets/images/nilam_as_title_2.png'),
           ),
           actions: <Widget>[
             IconButton(
@@ -76,8 +76,9 @@ class HomePage extends StatelessWidget {
                     ),
                   ],
                 ),
+                const Divider(),
                 const CustomCategoriesWidget(),
-                const SizedBox(height: 100),
+                const SizedBox(height: 10.0),
                 Row(
                   children: const [
                     Padding(
@@ -89,6 +90,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ],
                 ),
+                const Divider(),
                 Card(child: Text("Check"))
               ],
             ),
