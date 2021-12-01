@@ -1,6 +1,6 @@
 # Nilam (নিলাম)
 
-This is an auction application just like eBay. Using firebase as the backend for sign-in functionality.
+This is an auction application just like eBay. Using firebase as the backend for storing data.</br>
 Features:
 1. User can signing using their gmail account.
 2. After login, the user will see the auction item gallery, which shows the items everybody else has put up for auction.
@@ -35,12 +35,12 @@ Copy & paste this SHA1 key to the firebase insert box befire generating the "goo
 
 ## Packages used in "pubspec.yaml":
 ```
-  // For accessing FontAwesome icons
+  # For accessing FontAwesome icons
   font_awesome_flutter: ^9.2.0
-  // For swiping effects
+  # For swiping effects
   flutter_swiper_null_safety: ^1.0.2
-  // For signing in with Gmail account
+  # For signing in with Gmail account
   google_sign_in: ^5.2.1
-  // For Statementing
+  # For Statementing
   get: ^4.3.8
 ```
