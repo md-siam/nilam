@@ -45,11 +45,11 @@ class MyApp extends StatelessWidget {
             transition: Transition.cupertino),
         GetPage(
             name: '/dashboard',
-            page: () => DashboardPage(),
+            page: () => const DashboardPage(),
             transition: Transition.cupertino),
         GetPage(
             name: '/blank',
-            page: () => BlankPage(),
+            page: () => const BlankPage(),
             transition: Transition.cupertino),
       ],
     );
