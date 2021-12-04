@@ -30,6 +30,7 @@ class RunningBidsChart extends StatelessWidget {
           color: Colors.blue,
           dataSource: [
             // Bind data source
+            BidData('11:15', 2),
             BidData('12:15', 3),
             BidData('13:20', 7),
             BidData('14:12', 8),
@@ -64,6 +65,7 @@ class CompletedBidsChart extends StatelessWidget {
           color: Colors.pink,
           dataSource: [
             // Bind data source
+            BidData('11:15', 0),
             BidData('12:15', 1),
             BidData('13:20', 2),
             BidData('14:12', 4),
@@ -98,6 +100,7 @@ class TotalAmountChart extends StatelessWidget {
           color: Colors.green,
           dataSource: [
             // Bind data source
+            AmountData('11:15', 0),
             AmountData('12:15', 10000),
             AmountData('13:20', 10323),
             AmountData('14:12', 20132),

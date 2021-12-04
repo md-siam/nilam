@@ -22,9 +22,9 @@ class DashboardPage extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                buildContainer(5, "running", Colors.blue),
-                buildContainer(54, "completed", Colors.pink),
-                buildContainer(50230, "total value", Colors.green),
+                buildContainer(5, "running\nbids", Colors.blue),
+                buildContainer(54, "completed\nbids", Colors.pink),
+                buildContainer(50230, "total amount\n(in BDT)", Colors.green),
               ],
             ),
           ),
@@ -87,7 +87,7 @@ class DashboardPage extends StatelessWidget {
     );
   }
 
-  Container buildContainer(int value, String type, Color color) {
+  Container buildContainer(int num, String type, Color color) {
     return Container(
       padding: const EdgeInsets.all(8.0),
       decoration: BoxDecoration(
@@ -105,11 +105,14 @@ class DashboardPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            "$value",
+            "$num",
             style: stats,
           ),
           const SizedBox(height: 5.0),
-          Text(type.toUpperCase()),
+          Text(
+            type.toUpperCase(),
+            textAlign: TextAlign.center,
+          ),
         ],
       ),
     );
