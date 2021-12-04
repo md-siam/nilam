@@ -16,9 +16,6 @@ Features:
 ## 1. Sign-in using a Google account
 Watch this video to learn about google sign in: [Google SignIn with Flutter](https://www.youtube.com/watch?v=Q00Foa8CiDk&t=833s)
 
-## 5. Dashboard
-Charts are drawn using "syncfusion_flutter_charts" dart package. [Documentation](https://help.syncfusion.com/flutter/cartesian-charts/getting-started)
-
 ### Apple firebase setup:
 
 Follow the video carefully for ios setup.
@@ -47,3 +44,12 @@ Copy & paste this SHA1 key to the firebase insert box befire generating the "goo
   # For Statementing
   get: ^4.3.8
 ```
+
+## 5. Dashboard
+Charts are drawn using "syncfusion_flutter_charts" dart package. [Documentation](https://help.syncfusion.com/flutter/cartesian-charts/getting-started)
+
+## Screenshots
+<img align="left" src="screenshots/app/login_page.png" height="455"></img>
+<img align="left" src="screenshots/app/screenshots/app/navigation.png" height="455"></img>
+<img align="left" src="screenshots/app/dashboard.png" height="455"></img>
+<img align="left" src="screenshots/app/blank_page.png" height="455"></img>
