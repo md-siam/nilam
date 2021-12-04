@@ -11,13 +11,12 @@ Features:
 ## Task Completed & Challenges:
 
 1. Sign in using a Google account. The complete procedure is given below.
+5. Dashboard UI design.
 
 ## 1. Sign-in using a Google account
-
 Watch this video to learn about google sign in: [Google SignIn with Flutter](https://www.youtube.com/watch?v=Q00Foa8CiDk&t=833s)
 
 ## 5. Dashboard
-
 Charts are drawn using "syncfusion_flutter_charts" dart package. [Documentation](https://help.syncfusion.com/flutter/cartesian-charts/getting-started)
 
 ### Apple firebase setup:
