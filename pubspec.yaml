@@ -34,14 +34,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   # For accessing FontAwesome icons
   font_awesome_flutter: ^9.2.0
-  # For drawing charts
-  syncfusion_flutter_charts: ^19.3.56
   # For swiping effects
   flutter_swiper_null_safety: ^1.0.2
   # For Statementing
   get: ^4.3.8
   # For signing in with Gmail account
   google_sign_in: ^5.2.1
+  # For drawing charts
+  syncfusion_flutter_charts: ^19.3.56
 
 dev_dependencies:
   flutter_test:

@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
-import '../controllers/home_page_controller.dart';
 import '../controllers/login_controllers.dart';
-import '../models/home_page_models.dart';
 import '../widgets/custom_categories_widget.dart';
-import '../widgets/custom_drawer.dart';
+import '../widgets/widgets.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key key}) : super(key: key);
@@ -35,34 +32,14 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
+        // Its a custom widget
         drawer: CustomDrawer(controller: controller),
         body: ListView(
           children: [
             Column(
               children: [
-                SizedBox(
-                  height: 200,
-                  child: Swiper(
-                    itemCount: sliderItems.length,
-                    autoplay: true,
-                    autoplayDelay: 5000,
-                    curve: Curves.easeIn,
-                    layout: SwiperLayout.DEFAULT,
-                    itemBuilder: (BuildContext context, int index) {
-                      return Card(
-                        semanticContainer: true,
-                        clipBehavior: Clip.antiAliasWithSaveLayer,
-                        child: BannerImageModel(sliderItems[index],
-                            fit: BoxFit.fill),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10.0),
-                        ),
-                        elevation: 5,
-                        margin: const EdgeInsets.all(20),
-                      );
-                    },
-                  ),
-                ),
+                // Its a custom widget
+                const CustomBannerSlides(),
                 const SizedBox(height: 10.0),
                 Row(
                   children: const [
@@ -76,6 +53,7 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
                 const Divider(),
+                // Its a custom widget
                 const CustomCategoriesWidget(),
                 const SizedBox(height: 10.0),
                 Row(
