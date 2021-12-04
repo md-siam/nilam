@@ -114,6 +114,7 @@ class DashboardPage extends StatelessWidget {
           const SizedBox(height: 5.0),
           Text(
             type.toUpperCase(),
+            style: const TextStyle(color: Colors.white),
             textAlign: TextAlign.center,
           ),
         ],
