@@ -48,8 +48,8 @@ Copy & paste this SHA1 key to the firebase insert box befire generating the "goo
 ## 5. Dashboard
 Charts are drawn using "syncfusion_flutter_charts" dart package. [Documentation](https://help.syncfusion.com/flutter/cartesian-charts/getting-started)
 
-## Screenshots
+## Screenshots:
 <img align="left" src="screenshots/app/login_page.png" height="455"></img>
-<img align="left" src="screenshots/app/navigation.png" height="455"></img>
+<img align="left" src="screenshots/app/nav_bar.png" height="455"></img>
 <img align="left" src="screenshots/app/dashboard.png" height="455"></img>
 <img align="left" src="screenshots/app/blank_page.png" height="455"></img>
