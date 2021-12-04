@@ -16,6 +16,10 @@ Features:
 
 Watch this video to learn about google sign in: [Google SignIn with Flutter](https://www.youtube.com/watch?v=Q00Foa8CiDk&t=833s)
 
+## 5. Dashboard
+
+Charts are drawn using "syncfusion_flutter_charts" dart package. [Documentation](https://help.syncfusion.com/flutter/cartesian-charts/getting-started)
+
 ### Apple firebase setup:
 
 Follow the video carefully for ios setup.
