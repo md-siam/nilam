@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import '../const/const_colors.dart';
 import '../controllers/dashboard_controller.dart';
 
 class DashboardPage extends StatelessWidget {
-  const DashboardPage({Key key}) : super(key: key);
+  DashboardPage({Key key}) : super(key: key);
+  final oCcy = NumberFormat("#,##0", "en_US");
+
   static const TextStyle stats = TextStyle(
       fontWeight: FontWeight.bold, fontSize: 20.0, color: Colors.white);
 
@@ -105,7 +108,7 @@ class DashboardPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            "$num",
+            "${oCcy.format(num)}",
             style: stats,
           ),
           const SizedBox(height: 5.0),

@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
             transition: Transition.cupertino),
         GetPage(
             name: '/dashboard',
-            page: () => const DashboardPage(),
+            page: () => DashboardPage(),
             transition: Transition.cupertino),
         GetPage(
             name: '/blank',
