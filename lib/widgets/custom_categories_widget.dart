@@ -27,6 +27,55 @@ class CustomCategoriesWidget extends StatelessWidget {
                       height: 40.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
+                            image: AssetImage("assets/images/category/car.png"),
+                            fit: BoxFit.cover),
+                        color: Colors.white10,
+                        shape: BoxShape.rectangle,
+                      ),
+                    ),
+                    const SizedBox(height: 5.0),
+                    const Text("Car"),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(width: 20),
+            GestureDetector(
+              onTap: () => Get.toNamed("/blank/"),
+              child: SizedBox(
+                height: 100,
+                child: Column(
+                  children: [
+                    Container(
+                      width: 40.0,
+                      height: 40.0,
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage(
+                                "assets/images/category/motor-sport.png"),
+                            fit: BoxFit.cover),
+                        color: Colors.white10,
+                        shape: BoxShape.rectangle,
+                      ),
+                    ),
+                    const SizedBox(height: 5.0),
+                    const Text("Motorcycle"),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(width: 20),
+            GestureDetector(
+              onTap: () => Get.toNamed("/blank/"),
+              child: SizedBox(
+                height: 100,
+                child: Column(
+                  children: [
+                    Container(
+                      width: 40.0,
+                      height: 40.0,
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
                             image: AssetImage(
                                 "assets/images/category/smartphone.png"),
                             fit: BoxFit.cover),
@@ -61,55 +110,6 @@ class CustomCategoriesWidget extends StatelessWidget {
                     ),
                     const SizedBox(height: 5.0),
                     const Text("Tablet"),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () => Get.toNamed("/blank/"),
-              child: SizedBox(
-                height: 100,
-                child: Column(
-                  children: [
-                    Container(
-                      width: 40.0,
-                      height: 40.0,
-                      decoration: const BoxDecoration(
-                        image: DecorationImage(
-                            image: AssetImage("assets/images/category/car.png"),
-                            fit: BoxFit.cover),
-                        color: Colors.white10,
-                        shape: BoxShape.rectangle,
-                      ),
-                    ),
-                    const SizedBox(height: 5.0),
-                    const Text("Car"),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () => Get.toNamed("/blank/"),
-              child: SizedBox(
-                height: 100,
-                child: Column(
-                  children: [
-                    Container(
-                      width: 40.0,
-                      height: 40.0,
-                      decoration: const BoxDecoration(
-                        image: DecorationImage(
-                            image: AssetImage(
-                                "assets/images/category/motor-sport.png"),
-                            fit: BoxFit.cover),
-                        color: Colors.white10,
-                        shape: BoxShape.rectangle,
-                      ),
-                    ),
-                    const SizedBox(height: 5.0),
-                    const Text("Motorcycle"),
                   ],
                 ),
               ),
