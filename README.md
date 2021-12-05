@@ -11,6 +11,7 @@ Features:
 ## Task Completed & Challenges:
 
 1. Sign in using a Google account. The complete procedure is given below.
+2. Auction gallery.
 5. Dashboard UI design.
 
 ## 1. Sign-in using a Google account

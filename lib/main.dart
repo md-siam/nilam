@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
             transition: Transition.cupertino),
         GetPage(
             name: '/my-products',
-            page: () => MyProduct(),
+            page: () => const MyProduct(),
             transition: Transition.cupertino),
         GetPage(
             name: '/dashboard',
