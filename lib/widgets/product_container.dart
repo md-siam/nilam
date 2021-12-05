@@ -30,25 +30,27 @@ class ProductContainer extends StatelessWidget {
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
+          children: [
             Row(
-              children: <Widget>[
+              children: [
                 ClipRRect(
-                  borderRadius: BorderRadius.circular(15.0),
+                  borderRadius: BorderRadius.circular(5.0),
                   child: Image(
                     image: AssetImage(mainPic),
+                    fit: BoxFit.cover,
                     height: 71,
                     width: 71,
                   ),
                 ),
-                const SizedBox(width: 15),
+                const SizedBox(width: 10),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
+                    children: [
                       Text(
                         name,
-                        style: const TextStyle(fontSize: 16),
+                        style: const TextStyle(
+                            fontSize: 17, fontWeight: FontWeight.bold),
                       ),
                       Text(
                         location,
@@ -77,16 +79,18 @@ class ProductContainer extends StatelessWidget {
               children: [
                 Text(
                   "Bid: $minBid BDT",
-                  style: Theme.of(context).textTheme.subtitle1.apply(
-                        fontWeightDelta: 2,
-                      ),
+                  style: Theme.of(context)
+                      .textTheme
+                      .subtitle1
+                      .apply(fontWeightDelta: 2),
                 ),
                 const Expanded(child: SizedBox()),
                 Text(
                   "Time: $endTime",
-                  style: Theme.of(context).textTheme.subtitle1.apply(
-                        fontWeightDelta: 2,
-                      ),
+                  style: Theme.of(context)
+                      .textTheme
+                      .subtitle1
+                      .apply(fontWeightDelta: 2),
                 )
               ],
             )

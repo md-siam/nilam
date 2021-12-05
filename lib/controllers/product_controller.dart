@@ -17,7 +17,7 @@ List<ProductModel> productList = [
     ],
   ),
   ProductModel(
-    description: "MACBOOK PRO 13 (2012 Year Model)"
+    description: "MACBOOK PRO 13 (2020 Year Model)"
         "\nSPECIFICATIONS:"
         "\n13.3 Hi Def Display"
         "\n2.5GHz i5 Turbo Processor (3.1GHz Turbo Speed)"
@@ -27,7 +27,7 @@ List<ProductModel> productList = [
         "\nMacOS (Operating System) 2020 Big Sur 11.4 Installed",
     mainPic: "assets/images/product/mac1.jpeg",
     location: "Bonani, Dhaka",
-    name: "Apple MacBook Pro 13",
+    name: "Apple MacBook Pro 13 (2020 Year Model)",
     minBid: "52,400",
     endTime: "15:34:12",
     photos: [
@@ -42,7 +42,7 @@ List<ProductModel> productList = [
         "Apple iPhone XS mobile was launched in September 2018. The phone comes with a 5.80-inch touchscreen display with a resolution of 1125x2436 pixels at a pixel density of 458 pixels per inch (ppi). Apple iPhone XS is powered by a hexa-core Apple A12 Bionic processor. The Apple iPhone XS supports wireless charging, as well as proprietary fast charging.As far as the cameras are concerned, the Apple iPhone XS on the rear packs a 12-megapixel primary camera with an f/1.8 aperture and a pixel size of 1.4-micron, and a 12-megapixel camera with an f/2.4 aperture. The rear camera setup has autofocus. It sports a 7-megapixel camera on the front for selfies with an f/2.2 aperture.Apple iPhone XS is based on iOS 12 and packs 64GB of inbuilt storage. The Apple iPhone XS is a dual-SIM (GSM and GSM) mobile that accepts Nano-SIM and eSIM cards. The Apple iPhone XS measures 143.60 x 70.90 x 7.70mm (height x width x thickness) and weighs 177.00 grams. It was launched in Gold, Silver, and Space Grey colours. It features an IP68 rating for dust and water protection.",
     mainPic: "assets/images/product/iphone1.jpeg",
     location: "Rampura, Dhaka",
-    name: "Apple iPhone XS - 64GB",
+    name: "Apple iPhone XS - 64GB - Space Gray",
     minBid: "35,500",
     endTime: "5:34:12",
     photos: [

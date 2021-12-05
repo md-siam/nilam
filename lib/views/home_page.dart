@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
           title: const Image(
             image: AssetImage('assets/images/nilam_as_title_2.png'),
           ),
-          actions: <Widget>[
+          actions: [
             IconButton(
               padding: const EdgeInsets.only(right: 25.0),
               onPressed: () => {Get.toNamed("/auction-a-product/")},
