@@ -3,7 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
 import '../controllers/login_controllers.dart';
-import '../widgets/custom_categories_widget.dart';
+import '../views/views.dart';
 import '../widgets/widgets.dart';
 
 class HomePage extends StatelessWidget {
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
                 const Divider(),
-                const Card(child: Text("Check"))
+                const ProductPage(),
               ],
             ),
           ],

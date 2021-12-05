@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 
-import '../controllers/home_page_controller.dart';
-import '../models/home_page_models.dart';
+import '/../../controllers/home_page_controller.dart';
+import '/../../models/home_page_models.dart';
 
 class CustomBannerSlides extends StatelessWidget {
   const CustomBannerSlides({
