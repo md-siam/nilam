@@ -38,7 +38,7 @@ class MyProductDetailsPage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10.0),
                 child: Image(
                   image: AssetImage(productList[id].mainPic),
-                  fit: BoxFit.fill,
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
