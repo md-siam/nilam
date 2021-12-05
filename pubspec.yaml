@@ -69,8 +69,9 @@ flutter:
     - assets/images/
     - assets/images/banner/
     - assets/images/category/
-    - assets/images/product/
     - assets/images/user/
+    - assets/images/product/
+    - assets/images/my_product/
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a

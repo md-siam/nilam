@@ -8,7 +8,7 @@ List<ProductModel> productList = [
     location: "Gulshan, Dhaka",
     name: "2009 Lamborghini Gallardo",
     minBid: "36,50,000",
-    endTime: "24:34:12",
+    endTime: "23:34:12",
     photos: [
       "assets/images/product/lambo2.jpeg",
       "assets/images/product/lambo3.jpeg",
