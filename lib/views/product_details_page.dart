@@ -22,7 +22,7 @@ class ProductDetailsPage extends StatelessWidget {
             right: 0,
             height: MediaQuery.of(context).size.height / 2,
             child: Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.all(10.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10.0),
                 child: Image(
@@ -74,7 +74,6 @@ class ProductDetailsPage extends StatelessWidget {
                           .textTheme
                           .bodyText1
                           .apply(color: Colors.grey),
-                      maxLines: 3,
                       textAlign: TextAlign.justify,
                     ),
                     const SizedBox(
