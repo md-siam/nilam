@@ -54,5 +54,6 @@ Charts are drawn using "syncfusion_flutter_charts" dart package. [Documentation]
 <img align="left" src="screenshots/app/product_details_page.png" height="455"></img>
 <img align="left" src="screenshots/app/nav_bar.png" height="455"></img>
 <img align="left" src="screenshots/app/my_product_page.png" height="455"></img>
+<img align="left" src="screenshots/app/edit_option.png" height="455"></img>
 <img align="left" src="screenshots/app/dashboard_page.png" height="455"></img>
 <img align="left" src="screenshots/app/blank_page.png" height="455"></img>
